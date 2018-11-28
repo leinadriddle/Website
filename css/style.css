@@ -1,0 +1,60 @@
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+body { 
+	background-color: black;
+}
+
+
+header {
+  background-color: white;
+  padding: 20px;
+}
+
+ ol {
+	background-color: crimson;
+}
+
+.logo {
+  float: left;
+  width: 20%;
+  background-color: black;
+}
+
+nav {
+  float: right;
+  width: 80%;
+  text-align: right;
+}
+nav ul, nav li, nav a {
+  display: inline;
+}
+
+a {
+  display: inline-block;
+  padding: 20px 10px;
+  color: black;
+}
+
+.content .left-column {
+  float: left;
+  width: 20px;
+}
+
+.center-column {
+  float: left;
+  width: 50px;
+}
+
+.right-cloumn {
+  float: right;
+  width: 38px;
+}
+
+.p 
+
+ 
